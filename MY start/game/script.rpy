@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define e = Character("Delilah")
 
 
 # The game starts here.
@@ -14,17 +14,17 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room with dissolve
+    scene school hallway with dissolve
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show delilah happy
 
     # These display lines of dialogue.
 
-    e "Oh hi! MY name is Delilah but I'm sure you know that already."
+    e "Oh hi! My name is Delilah but I'm sure you know that already."
 
     e "What's your name?"
 
