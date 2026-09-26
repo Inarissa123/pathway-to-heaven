@@ -5,7 +5,7 @@
 
 define e = Character("Delilah")
 
-
+define h = Character("Hailey")
 # The game starts here.
 
 label start:
@@ -19,23 +19,29 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
+h "Delilah was the popular girl of the school, always crowded with people, constantly asked out on dates, and never seemed to have a single flaw to people"
 
-    show delilah happy
+h "Every time I passed by her in the hallway or saw her from afar, I always seem to feel something off as if she was hiding something."
 
+h "Every time I felt that I would brush it off, as she was always an open book to others, from what they said."
+
+h "But I wasn't so sure about that." 
+
+scene canteen with dissolve
     # These display lines of dialogue.
 
-    e "Oh hi! My name is Delilah but I'm sure you know that already."
 
-    e "What's your name?"
+  #  e "Oh hi! My name is Delilah but I'm sure you know that already."
 
-    menu:
+   # e "What's your name?"
 
-        "It's Hailey, nice to meet you too.":
-             e "Nice to meet you too.."
+   # menu:
+ #        "It's Hailey, nice to meet you too.":
+ #            e "Nice to meet you too.."
 
-        "My name is Hailey. It's nice to meet you too!":
-         e "Nice to meet you too!"
+ #       "My name is Hailey. It's nice to meet you too!":
+  #       e "Nice to meet you too!"
 
     # This ends the game.
 
-    return
+return
