@@ -27,9 +27,27 @@ h "Every time I felt that I would brush it off, as she was always an open book t
 
 h "But I wasn't so sure about that." 
 
+h "So in the end I thought it would be a great idea to be her friend just to see if I was right."
+
 scene canteen with dissolve
     # These display lines of dialogue.
+show crowd of people
 
+h "The canteen is always like this."
+
+h "Same crowd, same people,same everything."
+
+h "And the crowd is always surrounding the same person, Delilah."
+
+h "Only a few people didn't follow along with everybody else like me."
+
+h "their names are Timo, Nema, Amelia, and a few others."
+
+h "The first three I named are all my friends and we sit together at lunch and recess everyday."
+
+h "And today is the day I try to become friends with Delilah."
+
+"Hailey squeezes through the crowd of people "
 
   #  e "Oh hi! My name is Delilah but I'm sure you know that already."
 
