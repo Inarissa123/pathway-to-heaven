@@ -1,12 +1,16 @@
-﻿# The script of the game goes in this file.
-
+﻿
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
+
+
+
 
 define e = Character("Delilah")
 
 define h = Character("Hailey")
-# The game starts here.
+
+
+image dh1 = "Delilah happy1.jpg"
 
 label start:
 
@@ -39,6 +43,10 @@ h "Same crowd, same people,same everything."
 
 h "And the crowd is always surrounding the same person, Delilah."
 
+h "It was an odd idea to me how anybody could be this popular."
+
+h "Even in my old school which was known for popular people to have a cultish like following it was never as severe as here."
+
 h "Only a few people didn't follow along with everybody else like me."
 
 h "their names are Timo, Nema, Amelia, and a few others."
@@ -47,9 +55,35 @@ h "The first three I named are all my friends and we sit together at lunch and r
 
 h "And today is the day I try to become friends with Delilah."
 
-"Hailey squeezes through the crowd of people "
+scene moving through crowd with dissolve
 
-  #  e "Oh hi! My name is Delilah but I'm sure you know that already."
+"Hailey squeezes through the crowd of people trying to reach Delilah."
+
+"When Hailey finally reached the center of the pool of people, she was finally able to see Delilah upclose for the first time."
+
+scene closeup of Delilah with dissolve
+
+"When Hailey saw her upclose she notcied that Delilah had skin that almost seemed plastic, her long dark wavy hair so shiny it glowed like strings of a glass mirror."
+
+"But there was one thing that stuck out to Hailey" 
+
+"Delilah's eyes."
+
+scene Deli Eyes with dissolve
+
+"Her eyes had had no spark behind them, they were completely dull."
+
+"Every person that hailey had seen or met had a spark in their eyes, even the most depressed person she had met had atleast a little smidge of spark in them."
+
+"This made Hailey feel even more uneasy about her."
+
+"Something was definetely {i}off{/i} about Delilah."
+
+scene canteen with dissolve
+
+show dh1 
+
+e "Oh hi! My name is Delilah but I'm sure you know that already."
 
    # e "What's your name?"
 
