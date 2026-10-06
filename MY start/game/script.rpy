@@ -83,17 +83,20 @@ scene canteen with dissolve
 
 show dh1 
 
-e "Oh hi! My name is Delilah but I'm sure you know that already."
+e "Oh hi there! My name is Delilah but I'm sure you know that already."
 
-   # e "What's your name?"
+e "What's your name?"
 
-   # menu:
- #        "It's Hailey, nice to meet you too.":
- #            e "Nice to meet you too.."
+"Hailey was startled by Delilah's sudden greeting, she didn't expect her to come up to her like that but she answered Delilah either way."
+ 
+menu:
+    "It's Hailey, nice to meet you too.":
+        e "Nice to meet you too.."
+        e "So is there something you wanna ask me about? It's the first time I've seen you come up to me."
 
- #       "My name is Hailey. It's nice to meet you too!":
-  #       e "Nice to meet you too!"
+    "My name is Hailey. It's nice to meet you too!":
+        e "Nice to meet you too!"
+        e "So what are you here for? Just wondering you know, it's not like I see you coming up to me that much."
 
-    # This ends the game.
 
 return
