@@ -151,5 +151,7 @@ h "Thank you so much guys, I really appreciate it!"
 
 scene library with dissolve
 
+"In the library, Hailey's mind is running in circles unable to read the text on the paper"
+d "Hailey are you alright? you look as if you're about to faint!"
 
 return
