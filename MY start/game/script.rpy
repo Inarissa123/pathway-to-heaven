@@ -9,6 +9,11 @@ define e = Character("Delilah")
 
 define h = Character("Hailey")
 
+define t = Character("Timo")
+
+define n = Character("Nema")
+
+define a = Character("Amelia")
 
 image dh1 = "Delilah happy1.jpg"
 
@@ -108,5 +113,43 @@ h "Oh right, meet me in the library after school 3:30pm, are you good with that?
 
 e "Sure thing, see you later!"
 
-"Hailey walks away from the crowd and g"
+hide dh1 with dissolve
+
+"Hailey walks away from the crowd towards her friends in absolute surprise."
+
+h "What am I doing!? I just randomly blurted out what came in my mind that I thought could be used as a way to be her friend and an interview!?"
+
+h "All I've been doing in my club is reading true crime logs and writing them in the paper! Lastly I've never interviewed anyone in my life!"
+
+h "Maybe I can get my friends to help me with the interview questions"
+
+show t1 with dissolve
+
+t "Hey Hailey, is there something up in your mind? you don't look like your usual self today."
+
+show n1 with dissolve
+
+n "Yeah there's defenitely something off about you"
+
+a "I saw you talking with Delilah just now did something happen between you guys?"
+
+h "I was trying to become her friend because I got curios and ended up asking her to be interviewed for the school newspaper even though I've never done anything like that before!"
+
+h "I was wondering if you guys could help me plan quetions for the interview since I can't think of anything to ask her."
+
+t "Sure thing, I can help you with that. "
+
+t "What about the rest of you guys? "
+
+a "Sure, I can help you with that too. "
+
+n "Sure why not. "
+
+h "Thank you so much guys, I really appreciate it!"
+
+#add transition here with a label about the interview
+
+scene library with dissolve
+
+
 return
