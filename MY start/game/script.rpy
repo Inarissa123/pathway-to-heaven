@@ -98,5 +98,15 @@ menu:
         e "Nice to meet you too!"
         e "So what are you here for? Just wondering you know, it's not like I see you coming up to me that much."
 
+h "I just wanted to interview you for the school newspaper on how it's like to be the most popular girl in school, I'm part of the journalism club."
 
+e "Oh alright then, I'll be happy to answer for the newspaper."
+
+e "So are we going to do the interview here or somewhere else and what time?"
+
+h "Oh right, meet me in the library after school 3:30pm, are you good with that?"
+
+e "Sure thing, see you later!"
+
+"Hailey walks away from the crowd and g"
 return
