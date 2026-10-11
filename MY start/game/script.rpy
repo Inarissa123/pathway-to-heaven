@@ -5,7 +5,7 @@
 
 
 
-define e = Character("Delilah")
+define d = Character("Delilah")
 
 define h = Character("Hailey")
 
@@ -88,30 +88,30 @@ scene canteen with dissolve
 
 show dh1 
 
-e "Oh hi there! My name is Delilah but I'm sure you know that already."
+d "Oh hi there! My name is Delilah but I'm sure you know that already."
 
-e "What's your name?"
+d "What's your name?"
 
 "Hailey was startled by Delilah's sudden greeting, she didn't expect her to come up to her like that but she answered Delilah either way."
  
 menu:
     "It's Hailey, nice to meet you too.":
-        e "Nice to meet you too.."
-        e "So is there something you wanna ask me about? It's the first time I've seen you come up to me."
+        d "Nice to meet you too.."
+        d "So is there something you wanna ask me about? It's the first time I've seen you come up to me."
 
     "My name is Hailey. It's nice to meet you too!":
-        e "Nice to meet you too!"
-        e "So what are you here for? Just wondering you know, it's not like I see you coming up to me that much."
+        d "Nice to meet you too!"
+        d "So what are you here for? Just wondering you know, it's not like I see you coming up to me that much."
 
 h "I just wanted to interview you for the school newspaper on how it's like to be the most popular girl in school, I'm part of the journalism club."
 
-e "Oh alright then, I'll be happy to answer for the newspaper."
+d "Oh alright then, I'll be happy to answer for the newspaper."
 
-e "So are we going to do the interview here or somewhere else and what time?"
+d "So are we going to do the interview here or somewhere else and what time?"
 
 h "Oh right, meet me in the library after school 3:30pm, are you good with that?"
 
-e "Sure thing, see you later!"
+d "Sure thing, see you later!"
 
 hide dh1 with dissolve
 
@@ -123,11 +123,14 @@ h "All I've been doing in my club is reading true crime logs and writing them in
 
 h "Maybe I can get my friends to help me with the interview questions"
 
-show t1 with dissolve
+#make them show up at the same time later
+show t1 at left with dissolve
+
+show n1 at center with dissolve
+
+show a1 at right with dissolve
 
 t "Hey Hailey, is there something up in your mind? you don't look like your usual self today."
-
-show n1 with dissolve
 
 n "Yeah there's defenitely something off about you"
 
@@ -151,7 +154,27 @@ h "Thank you so much guys, I really appreciate it!"
 
 scene library with dissolve
 
-"In the library, Hailey's mind is running in circles unable to read the text on the paper"
+"In the library, Hailey's mind is running in circles unable to read the text on the paper even after all that planning with her friends her mind is still blank."
+
+"Delilah is sitting across from her staring in confusion."
+
+show dw with dissolve #Worried delilah
+
 d "Hailey are you alright? you look as if you're about to faint!"
 
+h "Oh sorry, I kinda zoned out for a while. Let's get started with the interview."
+
+h "So how does it feel to be the most popular girl in school?"
+
+show dh1 with dissolve
+
+d "I've never really thought about it that much, I'm honestly just used to how most people treat me."
+
+d "It's always been like this and I don't really know the reason why people seem to love me so much, but I do enjoy a good amount of the attention I get."
+
+h "Alright, next question have you ever liked someone before and if you did, how were they like? It's alright if you don't want to answwer this question, I don't want to make you feel uncomfortable."
+
+d "I've never actually liked anyone before in my whole life, but if I were to have one I would want them to be someone that truly knows who I am."
+
+h ""
 return
