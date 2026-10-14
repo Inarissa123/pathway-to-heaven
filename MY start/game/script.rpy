@@ -172,9 +172,23 @@ d "I've never really thought about it that much, I'm honestly just used to how m
 
 d "It's always been like this and I don't really know the reason why people seem to love me so much, but I do enjoy a good amount of the attention I get."
 
-h "Alright, next question have you ever liked someone before and if you did, how were they like? It's alright if you don't want to answwer this question, I don't want to make you feel uncomfortable."
+h "Alright, next question have you ever liked someone before and if you did, how were they like? It's alright if you don't want to answer this question, I don't want to make you feel uncomfortable."
 
 d "I've never actually liked anyone before in my whole life, but if I were to have one I would want them to be someone that truly knows who I am."
 
-h ""
+h "I see, so what is your favorite thing to do in your free time?"
+
+d "Now that I think of it, I don't really have one, I just kind of do what I'm told to do like my home work and chores, besides that I really just kind of sit around and do nothing."
+
+h "I see, so what is your favorite subject in school?"
+
+d "Probally science and social studies because it let's me learn about humans and how the surrounding world works."
+
+h "Why humans specifically?"
+
+d "I just find them {i}{b}interesting{b}{i} in a way."
+
+h "Oh okay, so what... "
+
+"Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}{i}interesting{/i}{/b}."
 return
