@@ -186,9 +186,7 @@ d "Probally science and social studies because it let's me learn about humans an
 
 h "Why humans specifically?"
 
-d "I just find them {i}{b}interesting{b}{i} in a way."
+d "I just find them {i}{b}interesting{/b}{/i} in a way."
 
-h "Oh okay, so what... "
-
-"Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}{i}interesting{/i}{/b}."
+"Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}\"interesting\"{/b}."
 return
