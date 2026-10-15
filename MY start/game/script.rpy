@@ -1,9 +1,10 @@
 ﻿
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
 
+default never_end_up = 0 #
 
+default romance = 0
 
+default dissapear = 0
 
 define d = Character("Delilah")
 
@@ -189,4 +190,24 @@ h "Why humans specifically?"
 d "I just find them {i}{b}interesting{/b}{/i} in a way."
 
 "Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}\"interesting\"{/b}."
+
+#add transition here after the interview and state with her friends
+
+scene otwh with dissolve
+
+h "After the interview, I was left with a lot of questions about Delilah and her life."
+
+h "And what's her thing about humans? It kinda creeped me out when she said that especially with the way she said it."
+
+h "I also somehow ended up getting her number!?(From my sharp wits of course)"
+
+show t1 at left, a1 at right, n1 at left with dissolve
+
+t "So what are you gonna do with her number? How did you even get it from her? Did you guys become friends or something?"
+
+h "I guess you could say that she said it would be a great idea to have eaxh other's number just in case we wanted to talk to each other or something like that."
+
+a "After hearing about the thing about humans she difinitely seems a bit creepy."
+
+a "I mean I get when your into anthropology and find that type of stuff interesting but by the way she said based on what on what you said makes me think she has something else going on in her mind." 
 return
