@@ -209,5 +209,13 @@ h "I guess you could say that she said it would be a great idea to have eaxh oth
 
 a "After hearing about the thing about humans she difinitely seems a bit creepy."
 
-a "I mean I get when your into anthropology and find that type of stuff interesting but by the way she said based on what on what you said makes me think she has something else going on in her mind." 
+a "I mean I get when you're into anthropology and find that type of stuff interesting but by the way she said based on what on what you said makes me think she has something else going on in her mind."
+
+h "What do you mean by \"something else going on in her mind?\""
+
+a "I thought you'd know since you said you were creeped out too."
+
+h "Of course I didn't, I just said it creeped me out because of her tone."
+
+h "So what I meant by that is that she probally has some w"
 return
