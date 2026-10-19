@@ -217,5 +217,17 @@ a "I thought you'd know since you said you were creeped out too."
 
 h "Of course I didn't, I just said it creeped me out because of her tone."
 
-h "So what I meant by that is that she probally has some w"
+a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally has to do with how people act I guess."
+
+n "You watch too many mystery movies I swear to god Amelia."
+
+a "What? They're way more interesting than whatever stupid dramas you watch you know!"
+
+t "Calm down you guys there's nothing to fight about movie genres,  but either way Nema's right."
+
+show Amelia angry
+
+show Nema smirk
+
+a "Hey!"
 return
