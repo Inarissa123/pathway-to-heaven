@@ -6,6 +6,8 @@ default romance = 0
 
 default dissapear = 0
 
+define ta = Character("Timo and Amelia")
+
 define d = Character("Delilah")
 
 define h = Character("Hailey")
@@ -16,7 +18,7 @@ define n = Character("Nema")
 
 define a = Character("Amelia")
 
-image dh1 = "Delilah happy1.jpg"
+image Delilah Happy = "Delilah happy1.jpg"
 
 label start:
 
@@ -87,7 +89,7 @@ scene Deli Eyes with dissolve
 
 scene canteen with dissolve
 
-show dh1 
+show Delilah Happy 
 
 d "Oh hi there! My name is Delilah but I'm sure you know that already."
 
@@ -114,7 +116,7 @@ h "Oh right, meet me in the library after school 3:30pm, are you good with that?
 
 d "Sure thing, see you later!"
 
-hide dh1 with dissolve
+hide Delilah Happy with dissolve
 
 "Hailey walks away from the crowd towards her friends in absolute surprise."
 
@@ -159,7 +161,7 @@ scene library with dissolve
 
 "Delilah is sitting across from her staring in confusion."
 
-show dw with dissolve #Worried delilah
+show Delilah Worried with dissolve #Worried delilah
 
 d "Hailey are you alright? you look as if you're about to faint!"
 
@@ -167,7 +169,7 @@ h "Oh sorry, I kinda zoned out for a while. Let's get started with the interview
 
 h "So how does it feel to be the most popular girl in school?"
 
-show dh1 with dissolve
+show Delilah Happy with dissolve
 
 d "I've never really thought about it that much, I'm honestly just used to how most people treat me."
 
@@ -201,7 +203,7 @@ h "And what's her thing about humans? It kinda creeped me out when she said that
 
 h "I also somehow ended up getting her number!?(From my sharp wits of course)"
 
-show t1 at left, a1 at right, n1 at left with dissolve
+#show t1 at left, a1 at right, n1 at left with dissolve
 
 t "So what are you gonna do with her number? How did you even get it from her? Did you guys become friends or something?"
 
@@ -217,17 +219,47 @@ a "I thought you'd know since you said you were creeped out too."
 
 h "Of course I didn't, I just said it creeped me out because of her tone."
 
-a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally has to do with how people act I guess."
+a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally manipulaaates people I guess."
+
+n "How did you even reach to that conclusion?"
 
 n "You watch too many mystery movies I swear to god Amelia."
 
 a "What? They're way more interesting than whatever stupid dramas you watch you know!"
 
-t "Calm down you guys there's nothing to fight about movie genres,  but either way Nema's right."
+t "Calm down guys there's nothing to fight about movie genres,  but either way Nema's right."
 
+#put the show lines in the bottom at the same time
 show Amelia angry
 
 show Nema smirk
 
 a "Hey!"
+
+h "I've gotta go off from here now guys I'll see you tomorrow!"
+
+show Amelia happy
+
+show Nema happy
+
+n "Bye Hailey!"
+
+ta "Bye Hailey!"
+
+"As Hailey parted from her friends she started thinking about when she tried approaching Delilah."
+
+"The more she went on in her head the more she remembered each detail in each scene."
+
+"And at some point she realized that Delilah was looking at her direction."
+
+"She was {b}staring{/b} at Hailey the entire whole time."
+
+"A few minutes go by and she arrives to her home."
+
+scene Room with dissolve
+
+"Right as Hailey steps into her room, she hears a notification coming from her phone."
+#play notif
+
+h "It's from Delilah."
 return
