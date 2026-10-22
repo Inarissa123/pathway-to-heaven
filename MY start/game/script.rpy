@@ -262,4 +262,32 @@ scene Room with dissolve
 #play notif
 
 h "It's from Delilah."
+
+#make scene where her phone pops up
+"insert phone text message scene"
+#text messages: 
+# D: Hey there Ley-ley!!
+# D: I just wanted to see how you were doing, did you just get home?
+# Hr:Why is she already texting me? And what's with the nickname, I haven't heard that since 2nd grade.
+# menu:
+# h1:I'm doing fine hbu? and yes I did just get home +dont endup together
+# h2:Hey Delilah, doing good just got home feel like I'm about to explode it's way too cold out to even be real +romance??
+# d1:Doing amazingg, just asked to check in on u becuse I felt like something might've happened to you otw home
+# d2:lol ikr it's so cold out anyways I just wanted to check in on u had feeling smth might've happened
+# h1+2:like what?
+# d1+2: Oh nothing much Thought one of my fans might've came at you espescially since you talked to me face to face alone
+# h1+2: How many times has anything like this happened to you for you to ask something like this?
+# d1+2: lol actually it happens not too often usually because someone tried to get closer with me or something like that
+# d1+2: anyways happy nothing bad happened see you later!
+# h1+2: thanks see you too
+#phone fades off
+h "That was... interesting to say the least."
+
+#scene transition for the next day
+
+scene school gate with dissolve
+
+#label with arriving at school
+
+
 return
