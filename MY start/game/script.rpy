@@ -18,7 +18,12 @@ define n = Character("Nema")
 
 define a = Character("Amelia")
 
+#define bell = (sound,"audio/bell.mp3")
+
+define Teacher  = Character("Teacher")
+
 image Delilah Happy = "Delilah happy1.jpg"
+
 
 label start:
 
@@ -31,7 +36,7 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-h "Delilah was the popular girl of the school, always crowded with people, constantly asked out on dates, and never seemed to have a single flaw to people"
+h "Delilah is the popular girl of the school, always crowded with people, constantly asked out on dates, and never seemed to have a single flaw to people"
 
 h "Every time I passed by her in the hallway or saw her from afar, I always seem to feel something off as if she was hiding something."
 
@@ -127,11 +132,11 @@ h "All I've been doing in my club is reading true crime logs and writing them in
 h "Maybe I can get my friends to help me with the interview questions"
 
 #make them show up at the same time later
-show t1 at left with dissolve
+show Timo worried at left with dissolve
 
-show n1 at center with dissolve
+show Nema worried at center with dissolve
 
-show a1 at right with dissolve
+show Amelia worried at right with dissolve
 
 t "Hey Hailey, is there something up in your mind? you don't look like your usual self today."
 
@@ -193,6 +198,7 @@ d "I just find them {i}{b}interesting{/b}{/i} in a way."
 
 "Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}\"interesting\"{/b}."
 
+
 #add transition here after the interview and state with her friends
 
 scene otwh with dissolve
@@ -207,11 +213,11 @@ h "I also somehow ended up getting her number!?(From my sharp wits of course)"
 
 t "So what are you gonna do with her number? How did you even get it from her? Did you guys become friends or something?"
 
-h "I guess you could say that she said it would be a great idea to have eaxh other's number just in case we wanted to talk to each other or something like that."
+h "I guess you could say that she said it would be a great idea to have each other's number just in case we wanted to talk to each other or something like that."
 
 a "After hearing about the thing about humans she difinitely seems a bit creepy."
 
-a "I mean I get when you're into anthropology and find that type of stuff interesting but by the way she said based on what on what you said makes me think she has something else going on in her mind."
+a "I mean I get when you're into anthropology and find that type of stuff interesting but by the way she said it based on what on what you said makes me think she has something else going on in her mind."
 
 h "What do you mean by \"something else going on in her mind?\""
 
@@ -219,7 +225,7 @@ a "I thought you'd know since you said you were creeped out too."
 
 h "Of course I didn't, I just said it creeped me out because of her tone."
 
-a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally manipulaaates people I guess."
+a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally manipulates people I guess."
 
 n "How did you even reach to that conclusion?"
 
@@ -289,5 +295,79 @@ scene school gate with dissolve
 
 #label with arriving at school
 
+d "Morning Ley!"
 
+h "Morning Delilah."
+
+scene English_class with dissolve
+
+Teacher "Today we will be learning about our town's folk lore and specifically \"Vitamer\""
+
+h "This class sounds like it'll be interesting."
+
+#label 10 min go by
+
+Teacher "Vitamer are creatures that take over human bodies to feed on the body's life force as their own are very weak and short."
+
+Teacher "This means without a host, Vitamers wouldn't be able to survive on their own."
+
+Teacher "When a Vitamer posesses a person, people around the posessed human become highly attracted to them either platonically or romantically."
+
+Teacher "This is because Vitamers need to find new people to sustain them selves once their current host runs out of their life force"
+
+Teacher "Surrounding people can also become obsessed with the posessed person."
+
+Teacher "This usually causes disharmony with the community the posessed person is part of."
+
+Teacher "There are very few alleged cases of a Vitamer posessing humans, with most being from a century ago."
+
+#label saying 45 minutes go by
+
+Teacher "thank you for today's class and I'll see you tomorrow."
+
+play sound "bell.mp3"
+
+#label after school at club room
+
+scene clubroom with dissolve
+
+show Timo happy with dissolve
+
+t "So how's the interview article going?"
+
+h "Pretty well I'm sure this'll get us more readers."
+
+t "That's good keep up the good work!"
+
+h "Thanks Timo."
+
+h "Also I've got some weird news to tell you."
+
+t "Hm? What is it?"
+
+h "Yesterday when I got home, Delilah texted me worrying that her fans might've attacked me on the way home."
+
+h "Really weird right?"
+
+t "Yeah.. She's an interesting person.."
+
+h "Anyways I getter get back to finishing my article, it's my first time actually doing anything in the club either way."
+
+show Timo laugh with dissolve
+
+t "Hahaha! you're right!"
+
+show Timo happy with dissolve
+
+t "All you ever do is just sit around and read, but atleast we get to spend time together right?"
+
+h "Yeah."
+
+# 30  minutes after label
+
+h "Finally done!"
+
+t "That's great! I'm gonna design the newspaper pages. You can go off now."
+
+h "Thanks Timo, I'll see you tomorrow!"
 return
