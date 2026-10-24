@@ -370,4 +370,12 @@ h "Finally done!"
 t "That's great! I'm gonna design the newspaper pages. You can go off now."
 
 h "Thanks Timo, I'll see you tomorrow!"
+
+scene otwh with dissolve
+
+h "Thinking about it now that discription of Vitamers in English class is oddly similar to Delilah.."
+
+h "It's just a folk lore creature it's probally just a coincedence right?"
+
+h ".. {b}Right{\b}?"
 return
