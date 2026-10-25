@@ -96,30 +96,30 @@ scene canteen with dissolve
 
 show Delilah Happy 
 
-d "Oh hi there! My name is Delilah but I'm sure you know that already."
+d "\"Oh hi there! My name is Delilah but I'm sure you know that already.\""
 
-d "What's your name?"
+d "\"What's your name?\""
 
 "Hailey was startled by Delilah's sudden greeting, she didn't expect her to come up to her like that but she answered Delilah either way."
  
 menu:
-    "It's Hailey, nice to meet you too.":
-        d "Nice to meet you too.."
-        d "So is there something you wanna ask me about? It's the first time I've seen you come up to me."
+    "\"It's Hailey, nice to meet you too.\"":
+        d "\"Nice to meet you too..\""
+        d "\"So is there something you wanna ask me about? It's the first time I've seen you come up to me.\""
 
-    "My name is Hailey. It's nice to meet you too!":
-        d "Nice to meet you too!"
-        d "So what are you here for? Just wondering you know, it's not like I see you coming up to me that much."
+    "\"My name is Hailey. It's nice to meet you too!\"":
+        d "\"Nice to meet you too!\""
+        d "\"So what are you here for? Just wondering you know, it's not like I see you coming up to me that much.\""
 
-h "I just wanted to interview you for the school newspaper on how it's like to be the most popular girl in school, I'm part of the journalism club."
+h "\"I just wanted to interview you for the school newspaper on how it's like to be the most popular girl in school, I'm part of the journalism club.\""
 
-d "Oh alright then, I'll be happy to answer for the newspaper."
+d "\"Oh alright then, I'll be happy to answer for the newspaper.\""
 
-d "So are we going to do the interview here or somewhere else and what time?"
+d "\"So are we going to do the interview here or somewhere else and what time?\""
 
-h "Oh right, meet me in the library after school 3:30pm, are you good with that?"
+h "\"Oh right, meet me in the library after school 3:30pm, are you good with that?\""
 
-d "Sure thing, see you later!"
+d "\"Sure thing, see you later!\""
 
 hide Delilah Happy with dissolve
 
@@ -127,7 +127,7 @@ hide Delilah Happy with dissolve
 
 h "What am I doing!? I just randomly blurted out what came in my mind that I thought could be used as a way to be her friend and an interview!?"
 
-h "All I've been doing in my club is reading true crime logs and writing them in the paper! Lastly I've never interviewed anyone in my life!"
+h "All I've been doing in my club is reading true crime stories and writing them in the paper! Lastly I've never interviewed anyone in my life!"
 
 h "Maybe I can get my friends to help me with the interview questions"
 
@@ -203,46 +203,46 @@ d "I just find them {i}{b}interesting{/b}{/i} in a way."
 
 scene otwh with dissolve
 
-h "After the interview, I was left with a lot of questions about Delilah and her life."
+h "\"After the interview, I was left with a lot of questions about Delilah and her life.\""
 
-h "And what's her thing about humans? It kinda creeped me out when she said that especially with the way she said it."
+h "\"And what's her thing about humans? It kinda creeped me out when she said that especially with the way she said it.\""
 
-h "I also somehow ended up getting her number!?(From my sharp wits of course)"
+h "\"I also somehow ended up getting her number!?\"(From my sharp wits of course)"
 
 #show t1 at left, a1 at right, n1 at left with dissolve
 
-t "So what are you gonna do with her number? How did you even get it from her? Did you guys become friends or something?"
+t "\"So what are you gonna do with her number? How did you even get it from her? Did you guys become friends or something?\""
 
-h "I guess you could say that she said it would be a great idea to have each other's number just in case we wanted to talk to each other or something like that."
+h "\"I guess you could say that she said it would be a great idea to have each other's number just in case we wanted to talk to each other or something like that.\""
 
-a "After hearing about the thing about humans she difinitely seems a bit creepy."
+a "\"After hearing about the thing about humans she difinitely seems a bit creepy."
 
-a "I mean I get when you're into anthropology and find that type of stuff interesting but by the way she said it based on what on what you said makes me think she has something else going on in her mind."
+a "\"I mean I get when you're into anthropology and find that type of stuff interesting but by the way she said it based on what on what you said makes me think she has something else going on in her mind.\""
 
-h "What do you mean by \"something else going on in her mind?\""
+h "\"What do you mean by \"something else going on in her mind?\"\""
 
-a "I thought you'd know since you said you were creeped out too."
+a "\"I thought you'd know since you said you were creeped out too.\""
 
-h "Of course I didn't, I just said it creeped me out because of her tone."
+h "\"Of course I didn't, I just said it creeped me out because of her tone.\""
 
-a "So what I meant by that is, that she probally has some odd plan cooking up in her head that probally manipulates people I guess."
+a "\"So what I meant by that is, that she probally has some odd plan cooking up in her head that probally manipulates people I guess.\""
 
-n "How did you even reach to that conclusion?"
+n "\"How did you even reach to that conclusion?\""
 
-n "You watch too many mystery movies I swear to god Amelia."
+n "\"You watch too many mystery movies I swear to god Amelia.\""
 
-a "What? They're way more interesting than whatever stupid dramas you watch you know!"
+a "\"What? They're way more interesting than whatever stupid dramas you watch you know!\""
 
-t "Calm down guys there's nothing to fight about movie genres,  but either way Nema's right."
+t "\"Calm down guys there's nothing to fight about movie genres,  but either way Nema's right.\""
 
 #put the show lines in the bottom at the same time
 show Amelia angry
 
 show Nema smirk
 
-a "Hey!"
+a "\"Hey!\""
 
-h "I've gotta go off from here now guys I'll see you tomorrow!"
+h "\"I've gotta go off from here now guys I'll see you tomorrow!\""
 
 show Amelia happy
 
@@ -270,7 +270,7 @@ scene Room with dissolve
 h "It's from Delilah."
 
 #make scene where her phone pops up
-"insert phone text message scene"
+"*insert phone text message scene* I haven't figured out how to do this yet so just wait till I update the vn"
 #text messages: 
 # D: Hey there Ley-ley!!
 # D: I just wanted to see how you were doing, did you just get home?
@@ -307,23 +307,23 @@ h "This class sounds like it'll be interesting."
 
 #label 10 min go by
 
-Teacher "Vitamer are creatures that take over human bodies to feed on the body's life force as their own are very weak and short."
+Teacher "\"Vitamer are creatures that take over human bodies to feed on the body's life force as their own are very weak and short.\""
 
-Teacher "This means without a host, Vitamers wouldn't be able to survive on their own."
+Teacher "\"This means without a host, Vitamers wouldn't be able to survive on their own.\""
 
-Teacher "When a Vitamer posesses a person, people around the posessed human become highly attracted to them either platonically or romantically."
+Teacher "\"When a Vitamer posesses a person, people around the posessed human become highly attracted to them either platonically or romantically.\""
 
-Teacher "This is because Vitamers need to find new people to sustain them selves once their current host runs out of their life force"
+Teacher "\"This is because Vitamers need to find new people to sustain them selves once their current host runs out of their life force\""
 
-Teacher "Surrounding people can also become obsessed with the posessed person."
+Teacher "\"Surrounding people can also become obsessed with the posessed person.\""
 
-Teacher "This usually causes disharmony with the community the posessed person is part of."
+Teacher "\"This usually causes disharmony with the community the posessed person is part of.\""
 
-Teacher "There are very few alleged cases of a Vitamer posessing humans, with most being from a century ago."
+Teacher "\"There are very few alleged cases of a Vitamer posessing humans, with most being from a century ago.\""
 
 #label saying 45 minutes go by
 
-Teacher "thank you for today's class and I'll see you tomorrow."
+Teacher "\"Thank you for today's class and I'll see you tomorrow.\""
 
 play sound "bell.mp3"
 
@@ -333,43 +333,45 @@ scene clubroom with dissolve
 
 show Timo happy with dissolve
 
-t "So how's the interview article going?"
+t "\"So how's the interview article going?\""
 
-h "Pretty well I'm sure this'll get us more readers."
+h "\"Pretty well I'm sure this'll get us more readers.\""
 
-t "That's good keep up the good work!"
+t "\"That's good keep up the good work!\""
 
-h "Thanks Timo."
+h "\"Thanks Timo.\""
 
-h "Also I've got some weird news to tell you."
+h "\"Also I've got some weird news to tell you.\""
 
-t "Hm? What is it?"
+t "\"Hm? What is it?\""
 
-h "Yesterday when I got home, Delilah texted me worrying that her fans might've attacked me on the way home."
+h "\"Yesterday when I got home, Delilah texted me worrying that her fans might've attacked me on the way home.\""
 
-h "Really weird right?"
+h "\"Really weird right?\""
 
-t "Yeah.. She's an interesting person.."
+t "\"Yeah.. She's an interesting person..\""
 
-h "Anyways I getter get back to finishing my article, it's my first time actually doing anything in the club either way."
+h "\"Anyways, I better get back to finishing my article, it's my first time actually writing anything besides things related to true crimes for the paper either way.\""
 
 show Timo laugh with dissolve
 
-t "Hahaha! you're right!"
+t "\"Hahaha! you're right!\""
 
 show Timo happy with dissolve
 
-t "All you ever do is just sit around and read, but atleast we get to spend time together right?"
+t "\"Even though that's all you write about in this club, at least we get to spend time together right?\""
 
-h "Yeah."
+h "\"Yeah.\""
 
 # 30  minutes after label
 
-h "Finally done!"
+h "\"Finally done!\""
 
-t "That's great! I'm gonna design the newspaper pages. You can go off now."
+t "\"That's great! I'm gonna design the newspaper pages. You can go off now.\""
+ 
+h "\"Thanks Timo, I'll see you tomorrow!\""
 
-h "Thanks Timo, I'll see you tomorrow!"
+hide Timo with dissolve
 
 scene otwh with dissolve
 
@@ -378,5 +380,9 @@ h "Thinking about it now that discription of Vitamers in English class is oddly 
 h "It's just a folk lore creature it's probally just a coincedence right?"
 
 h ".. {b}Right{\b}?"
+# end of chapter one or something idk I need 50 hours *insert crying emoji*
+"next day morning"#next days
 
+scene classroom with dissolve
+h "I can't stop thinking about Delilah eversince yesterday"
 return
