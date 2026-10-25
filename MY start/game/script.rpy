@@ -1,6 +1,6 @@
 ﻿
 
-default never_end_up = 0 #
+default neverendup = 0 #
 
 default romance = 0
 
@@ -138,25 +138,25 @@ show Nema worried at center with dissolve
 
 show Amelia worried at right with dissolve
 
-t "Hey Hailey, is there something up in your mind? you don't look like your usual self today."
+t "\"Hey Hailey, is there something up in your mind? you don't look like your usual self today.\""
 
-n "Yeah there's defenitely something off about you"
+n "\"Yeah there's defenitely something off about you\""
 
-a "I saw you talking with Delilah just now did something happen between you guys?"
+a "\"I saw you talking with Delilah just now did something happen between you guys?\""
 
-h "I was trying to become her friend because I got curios and ended up asking her to be interviewed for the school newspaper even though I've never done anything like that before!"
+h "\"I was trying to become her friend because I got curios and ended up asking her to be interviewed for the school newspaper even though I've never done anything like that before!\""
 
-h "I was wondering if you guys could help me plan quetions for the interview since I can't think of anything to ask her."
+h "\"I was wondering if you guys could help me plan quetions for the interview since I can't think of anything to ask her.\""
 
-t "Sure thing, I can help you with that. "
+t "\"Sure thing, I can help you with that.\""
 
-t "What about the rest of you guys? "
+t "\"What about the rest of you guys?\""
 
-a "Sure, I can help you with that too. "
+a "\"Sure, I can help you with that too.\""
 
-n "Sure why not. "
+n "\"Sure why not.\""
 
-h "Thank you so much guys, I really appreciate it!"
+h "\"Thank you so much guys, I really appreciate it!\""
 
 #add transition here with a label about the interview
 
@@ -168,33 +168,33 @@ scene library with dissolve
 
 show Delilah Worried with dissolve #Worried delilah
 
-d "Hailey are you alright? you look as if you're about to faint!"
+d "\"Hailey are you alright? you look as if you're about to faint!\""
 
-h "Oh sorry, I kinda zoned out for a while. Let's get started with the interview."
+h "\"Oh sorry, I kinda zoned out for a while. Let's get started with the interview.\""
 
-h "So how does it feel to be the most popular girl in school?"
+h "\"So how does it feel to be the most popular girl in school?\""
 
 show Delilah Happy with dissolve
 
-d "I've never really thought about it that much, I'm honestly just used to how most people treat me."
+d "\"I've never really thought about it that much, I'm honestly just used to how most people treat me.\""
 
-d "It's always been like this and I don't really know the reason why people seem to love me so much, but I do enjoy a good amount of the attention I get."
+d "\"It's always been like this and I don't really know the reason why people seem to love me so much, but I do enjoy a good amount of the attention I get.\""
 
-h "Alright, next question have you ever liked someone before and if you did, how were they like? It's alright if you don't want to answer this question, I don't want to make you feel uncomfortable."
+h "\"Alright, next question have you ever liked someone before and if you did, how were they like? It's alright if you don't want to answer this question, I don't want to make you feel uncomfortable.\""
 
-d "I've never actually liked anyone before in my whole life, but if I were to have one I would want them to be someone that truly knows who I am."
+d "\"I've never actually liked anyone before in my whole life, but if I were to have one I would want them to be someone that truly knows who I am.\""
 
-h "I see, so what is your favorite thing to do in your free time?"
+h "\"I see, so what is your favorite thing to do in your free time?"
 
-d "Now that I think of it, I don't really have one, I just kind of do what I'm told to do like my home work and chores, besides that I really just kind of sit around and do nothing."
+d "\"Now that I think of it, I don't really have one, I just kind of do what I'm told to do like my home work and chores, besides that I really just kind of sit around and do nothing.\""
 
-h "I see, so what is your favorite subject in school?"
+h "\"I see, so what is your favorite subject in school?\""
 
-d "Probally science and social studies because it let's me learn about humans and how the surrounding world works."
+d "\"Probally science and social studies because it let's me learn about humans and how the surrounding world works.\""
 
-h "Why humans specifically?"
+h "\"Why humans specifically?"
 
-d "I just find them {i}{b}interesting{/b}{/i} in a way."
+d "\"I just find them {i}{b}interesting{/b}{/i} in a way."
 
 "Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}\"interesting\"{/b}."
 
@@ -301,7 +301,7 @@ h "Morning Delilah."
 
 scene English_class with dissolve
 
-Teacher "Today we will be learning about our town's folk lore and specifically \"Vitamer\""
+Teacher "d:\"Today we will be learning about our town's folk lore and specifically \"Vitamer\"\""
 
 h "This class sounds like it'll be interesting."
 
@@ -384,5 +384,73 @@ h ".. {b}Right{\b}?"
 "next day morning"#next days
 
 scene classroom with dissolve
-h "I can't stop thinking about Delilah eversince yesterday"
+
+h "I can't stop thinking about Delilah ever since that random thought I had yesterday."
+
+h "I can't even focus on anything now! I'm supposed to be the cool smart girl who gets good grades, not the girl who dozes off at class!"
+
+show Amelia happy with dissolve
+
+a "\"Hailey!\""
+
+"Hailey shudders in suprise from Amelia's sudden call."
+
+h "\"Oh! Uh hi Amelia!\""
+
+a "\"You good? You look like your head was in a whole different dimension.\""
+
+h "\"I'm.. fine.\""
+
+h "\"Have you ever had a weird feeling that someone is actally something else instead of the person most people see them as?\""
+
+a "\"Oh, uh not really.\""
+
+a "\"Why're you asking?\""
+
+h "\"Nothing.\""
+
+a "\"Is this about Delilah?\""
+
+h "\"How'd you figure it out?\""
+
+a "\"It's painfully obvious you know, espescially since you were practically rambbling about her the other day.\""
+
+h "\"Riiiight..\""
+
+a "\"So what do you think she is either way?\""
+
+show Amelia laugh with dissolve
+
+a "\"Some type of other creature or something? Hahahahaha!\""
+
+show Amelia happy with dissolve
+
+"Hailey grits her teeth in hesitation with her face uknowingly obvious to Amelia."
+
+h "I'm not sure if I should tell her about my stupid idea."
+
+show Amelia worried with dissolve
+
+a "\"Or was I right..?\""
+
+h "\"You got me..\""
+
+a "\"But why?\""
+
+a "\"She really hasn't done anything has she?\""
+
+h "\"I guess..\""
+
+h "\"Yesterday during English class when the teacher was reading about that \"Vitamer\" thing right?\""
+
+a "\"Yeah, what about it?\""
+
+h "\"When you think about it, does it kind of describe Delilah?\""
+
+a "\"Honestly now that I think about it your right and it's actually pretty creepy..\""
+
+a "\"But it's probally just a coincedence though.\""
+
+h "\"That's the thing\""
+
 return
