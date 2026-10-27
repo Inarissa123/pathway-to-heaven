@@ -397,6 +397,8 @@ a "\"Hailey!\""
 
 h "\"Oh! Uh hi Amelia!\""
 
+"Amelia walks over to the seat infront of Hailey and sits down facing towards her."
+
 a "\"You good? You look like your head was in a whole different dimension.\""
 
 h "\"I'm.. fine.\""
@@ -451,6 +453,21 @@ a "\"Honestly now that I think about it your right and it's actually pretty cree
 
 a "\"But it's probally just a coincedence though.\""
 
-h "\"That's the thing\""
+h "\"That's the thing.\""
 
+h "\"I'm sure it's supposed to be a coincedence but I can't seem to get it off my mind!\""
+
+a "\"If you really think so, then try to prove something about her that will give you some type of peace of mind.\""
+
+a "\"Am I right?\""
+
+h "\"I'll think about it.\""
+
+#play bell
+
+a "Well class is starting, I'll see you later then Hailey!"
+
+h "See you."
+
+h "WHat am I supposed to do now?"
 return
