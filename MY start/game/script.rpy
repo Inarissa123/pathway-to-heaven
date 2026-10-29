@@ -18,6 +18,8 @@ define n = Character("Nema")
 
 define a = Character("Amelia")
 
+define hm = Character("Hailey's Mom")
+
 #define bell = (sound,"audio/bell.mp3")
 
 define Teacher  = Character("Teacher")
@@ -335,7 +337,7 @@ show Timo happy with dissolve
 
 t "\"So how's the interview article going?\""
 
-h "\"Pretty well I'm sure this'll get us more readers.\""
+h "\"Pretty well, I'm sure this'll get us more readers.\""
 
 t "\"That's good keep up the good work!\""
 
@@ -375,9 +377,9 @@ hide Timo with dissolve
 
 scene otwh with dissolve
 
-h "Thinking about it now that discription of Vitamers in English class is oddly similar to Delilah.."
+h "Thinking about it now that description of Vitamers in English class is oddly similar to Delilah.."
 
-h "It's just a folk lore creature it's probally just a coincedence right?"
+h "It's just a folk lore creature it's probally just a coinidence right?"
 
 h ".. {b}Right{\b}?"
 # end of chapter one or something idk I need 50 hours *insert crying emoji*
@@ -415,7 +417,7 @@ a "\"Is this about Delilah?\""
 
 h "\"How'd you figure it out?\""
 
-a "\"It's painfully obvious you know, espescially since you were practically rambbling about her the other day.\""
+a "\"It's painfully obvious you know, espescially since you were practically rambling about her the other day.\""
 
 h "\"Riiiight..\""
 
@@ -447,11 +449,11 @@ h "\"Yesterday during English class when the teacher was reading about that \"Vi
 
 a "\"Yeah, what about it?\""
 
-h "\"When you think about it, does it kind of describe Delilah?\""
+h "\"When you think about it, does'nt it kind of describe Delilah?\""
 
 a "\"Honestly now that I think about it your right and it's actually pretty creepy..\""
 
-a "\"But it's probally just a coincedence though.\""
+a "\"But it's probally just a coincidence though.\""
 
 h "\"That's the thing.\""
 
@@ -469,5 +471,119 @@ a "Well class is starting, I'll see you later then Hailey!"
 
 h "See you."
 
-h "WHat am I supposed to do now?"
+hide Amelia with dissolve
+
+h "What am I supposed to do now?"
+
+"*insert next day after school*"
+
+scene Room with dissolve
+
+h "I'm still think about what I should do about Delilah.."
+
+h "It must be a coincedence right?"
+
+h "I've never felt any type of attraction towards her in the first place and neither did my friends."
+
+h "That should be enough for me to prove that she isn't a Vitamer right? "
+
+"*insert notification sound*"
+
+h "Oh, it's from the group chat"
+
+"*insert phone scene again* I'll just describe it for now"
+
+n "Yo dudes let's hang out later"
+
+t "where tho?"
+
+n "uhhhh"
+
+n "Ames say smth"
+
+a "idk bro maybe like the mall"
+
+h "These dudes bro(irl)."
+
+h "we've been to the mall too many times somewhere else pls"
+
+n "wait lemme go search up good places to hang out"
+
+t "how long do u think she's gonna take"
+
+h "prob 5 min"
+
+a "15 min"
+
+n "*insert tik tok vid link* choose from here"
+
+h "a tiktok *insert broken heart emoji*"
+
+n "I mean it's easier this way"
+
+h "I guess bro"
+
+t "I think we should go to Mako waterpark"
+
+h "That's a good one"
+
+a "hmmmmmmm"
+
+a "yea"
+
+n "yes"
+
+t "then were going to the waterpark"
+
+t "what time"
+
+n "tmrw 10 AM?"
+
+h "ehh"
+
+h "ok"
+
+t "can"
+
+a "ok"
+
+n "So that means were actually going no dropping out"
+
+"*Hailey turns off her phone*"
+
+h "\"Everything's happening so fast...\""
+
+"*insert transition scene for the next morning 7 AM*"
+
+"*Alarm clock sound*"
+
+h "Today I'm going to Mako waterpark with my friends."
+
+h "I slept earlier than usual last night just so I could actually make it on time."
+
+h "But still.."
+
+h " I feel so drowsy.."
+
+hm "\"{size=+10}{b}Hailey! Are you up?{/b}{/size}\""
+
+hm "\"{size=+10}{b}You're going out to Mako Waterpark with your friends right? You better get ready!{/b}{/size}\""
+
+h "\"{size=+10}{/b}Yes mom!!{/b}{/size}\""
+
+h "I guess I actually have to get out of bed now.."
+
+"Hailey yawns as she rolls off of her bed onto the carpet."
+
+"*insert thump sound effect*"
+
+"Hailey walks towards the closet and digs through all her clothes to find a pair of swimming trunks and a tankini which she both last wore two years ago."
+
+"She quickly grabs them and stuffs them into a random tote back hiding behind a rack of dresses her grandmother gave her through out the years."
+
+"With her brain slowly piecing back together, Hailey remembers that she needs to grab her sun screen."
+
+scene bathroom with dissolve
+
+"Hailey stumbles towards the bathroom looking for her sunscreen."
 return
