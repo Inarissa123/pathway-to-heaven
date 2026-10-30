@@ -569,7 +569,7 @@ hm "\"{size=+10}{b}Hailey! Are you up?{/b}{/size}\""
 
 hm "\"{size=+10}{b}You're going out to Mako Waterpark with your friends right? You better get ready!{/b}{/size}\""
 
-h "\"{size=+10}{/b}Yes mom!!{/b}{/size}\""
+h "\"{size=+10}{ b}Yes mom!!{/b}{/size}\""
 
 h "I guess I actually have to get out of bed now.."
 
