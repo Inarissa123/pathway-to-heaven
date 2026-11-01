@@ -569,7 +569,7 @@ hm "\"{size=+10}{b}Hailey! Are you up?{/b}{/size}\""
 
 hm "\"{size=+10}{b}You're going out to Mako Waterpark with your friends right? You better get ready!{/b}{/size}\""
 
-h "\"{size=+10}{ b}Yes mom!!{/b}{/size}\""
+h "\"{size=+10}{b}Yes mom!!{/b}{/size}\""
 
 h "I guess I actually have to get out of bed now.."
 
@@ -586,4 +586,35 @@ h "I guess I actually have to get out of bed now.."
 scene bathroom with dissolve
 
 "Hailey stumbles towards the bathroom looking for her sunscreen."
+
+"Her eye's look towards the vanity and spots it beside the stacks of vasiline she's collected with each one having different uses."
+
+"She trudges towards the vanity and snatches the sunscreen into her totebag."
+
+"*insert shuffling sound*"
+
+"The next moment Hailey is going down the stairs following the fresh smell of rice and eggs her mother had lovingly prepared."
+
+"*insert footstep sounds*"
+
+scene Dining Room with dissolve
+
+"Hailey enters the dining room absolutely ready to devour the breakfast her mother has prepared until she hears a voice coming through from the other side of the room."
+
+show Mom angry with dissolve
+
+hm "Hailey why are you still in your pajamas? You should dress yourslef properly if your going out!"
+
+h "But mom, right as I get to the waterpark I'm gonna changing straight into my swimmimg clothes!"
+
+hm "Fine but what abou you clothes after your done?"
+
+hm "Are you still going to wear those pajamas?"
+
+h "Who care's if I wear them after I'm done with the hangout, they're comfortable enough either way!"
+
+h "Just let me eat my breakfast already urgh!"
+
+hm "Fine."
+
 return
