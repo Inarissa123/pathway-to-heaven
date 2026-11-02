@@ -613,8 +613,22 @@ hm "Are you still going to wear those pajamas?"
 
 h "Who care's if I wear them after I'm done with the hangout, they're comfortable enough either way!"
 
-h "Just let me eat my breakfast already urgh!"
+h "Just let me eat my breakfast already {size=+10}{b}urgh{/b}{/size}!"
+
+show Mom angryclosed with dissolve
 
 hm "Fine."
+
+hide Mom with dissolve
+
+"Soon after, Hailey sits at the dining table."
+
+"She picks up her spoon and fork and immediately starts gorging at the food."
+
+"Her face was covered with grains of rice and bits of egg after finishing her breakfast."
+
+"She cleaned up her face and went straight out the door but then, she turned around just for a second midway and screamed towards her mom:"
+
+h "{size=+10}{b}\"THE FOOD WAS AMAZING MOM, LOVE YOU!\"{/b}{/size}"
 
 return
