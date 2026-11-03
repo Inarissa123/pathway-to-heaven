@@ -20,6 +20,7 @@ define a = Character("Amelia")
 
 define hm = Character("Hailey's Mom")
 
+define hat = Character("Hailey, Timo and Amelia")
 #define bell = (sound,"audio/bell.mp3")
 
 define Teacher  = Character("Teacher")
@@ -47,6 +48,8 @@ h "Every time I felt that I would brush it off, as she was always an open book t
 h "But I wasn't so sure about that." 
 
 h "So in the end I thought it would be a great idea to be her friend just to see if I was right."
+
+label Meeting:
 
 scene canteen with dissolve
     # These display lines of dialogue.
@@ -161,6 +164,7 @@ n "\"Sure why not.\""
 h "\"Thank you so much guys, I really appreciate it!\""
 
 #add transition here with a label about the interview
+label interview:
 
 scene library with dissolve
 
@@ -200,8 +204,8 @@ d "\"I just find them {i}{b}interesting{/b}{/i} in a way."
 
 "Hailey and Delilah continue their interview for a while but after listening to her answers she grew even more suspicius about Delilah, especially when she found humans {b}\"interesting\"{/b}."
 
-
 #add transition here after the interview and state with her friends
+label After_school:
 
 scene otwh with dissolve
 
@@ -264,6 +268,8 @@ ta "Bye Hailey!"
 
 "A few minutes go by and she arrives to her home."
 
+label Texting:
+
 scene Room with dissolve
 
 "Right as Hailey steps into her room, she hears a notification coming from her phone."
@@ -274,21 +280,44 @@ h "It's from Delilah."
 #make scene where her phone pops up
 "*insert phone text message scene* I haven't figured out how to do this yet so just wait till I update the vn"
 #text messages: 
-# D: Hey there Ley-ley!!
-# D: I just wanted to see how you were doing, did you just get home?
-# Hr:Why is she already texting me? And what's with the nickname, I haven't heard that since 2nd grade.
-# menu:
-# h1:I'm doing fine hbu? and yes I did just get home +dont endup together
-# h2:Hey Delilah, doing good just got home feel like I'm about to explode it's way too cold out to even be real +romance??
-# d1:Doing amazingg, just asked to check in on u becuse I felt like something might've happened to you otw home
-# d2:lol ikr it's so cold out anyways I just wanted to check in on u had feeling smth might've happened
-# h1+2:like what?
-# d1+2: Oh nothing much Thought one of my fans might've came at you espescially since you talked to me face to face alone
-# h1+2: How many times has anything like this happened to you for you to ask something like this?
-# d1+2: lol actually it happens not too often usually because someone tried to get closer with me or something like that
-# d1+2: anyways happy nothing bad happened see you later!
-# h1+2: thanks see you too
-#phone fades off
+d "Hey there Ley-ley!!"
+
+d "I just wanted to see how you were doing, did you just get home?"
+
+h "Why is she already texting me? And what's with the nickname, I haven't heard that since 2nd grade."
+
+menu:
+    "I'm doing fine hbu? and yes I did just get home":
+     jump No_Romance
+ 
+    "Hey Delilah, doing good just got home feel like I'm about to explode it's way too cold out to even be real":
+     jump Romance
+
+label No_Romance: 
+
+ d "Doing amazingg, just asked to check in on u becuse I felt like something might've happened to you otw home"
+ jump after_text
+
+label Romance:
+
+ d "lol ikr it's so cold out anyways I just wanted to check in on u had feeling smth might've happened"
+
+label after_text:
+
+ h "like what?"
+
+d "Oh nothing much Thought one of my fans might've came at you espescially since you talked to me face to face alone"
+
+h "How many times has anything like this happened to you for you to ask something like this?"
+
+d "lol actually it happens not too often usually because someone tried to get closer with me or something like that"
+
+d "anyways happy nothing bad happened see you later!"
+
+h "thanks see you too"
+
+"*insert phone fading off*"
+
 h "That was... interesting to say the least."
 
 #scene transition for the next day
@@ -301,9 +330,11 @@ d "Morning Ley!"
 
 h "Morning Delilah."
 
+label English_class:
+
 scene English_class with dissolve
 
-Teacher "d:\"Today we will be learning about our town's folk lore and specifically \"Vitamer\"\""
+Teacher "\"Today we will be learning about our town's folk lore and specifically \"Vitamer\"\""
 
 h "This class sounds like it'll be interesting."
 
@@ -603,22 +634,21 @@ scene Dining Room with dissolve
 
 show Mom angry with dissolve
 
-hm "Hailey why are you still in your pajamas? You should dress yourslef properly if your going out!"
+hm "\"Hailey why are you still in your pajamas? You should dress yourslef properly if your going out!\""
 
-h "But mom, right as I get to the waterpark I'm gonna changing straight into my swimmimg clothes!"
+h "\"But mom, right as I get to the waterpark I'm gonna changing straight into my swimmimg clothes!\""
 
-hm "Fine but what abou you clothes after your done?"
+hm "\"Fine but what about your clothes after your done?\""
 
-hm "Are you still going to wear those pajamas?"
+hm "\"Are you still going to wear those pajamas?\""
 
-h "Who care's if I wear them after I'm done with the hangout, they're comfortable enough either way!"
+h "\"Who care's if I wear them after I'm done with the hangout, they're comfortable enough either way!\""
 
-h "Just let me eat my breakfast already {size=+10}{b}urgh{/b}{/size}!"
+h "\"Just let me eat my breakfast already {size=+10}{b}urgh{/b}{/size}!\""
 
 show Mom angryclosed with dissolve
 
-hm "Fine."
-
+hm "\"Fine.\""
 hide Mom with dissolve
 
 "Soon after, Hailey sits at the dining table."
@@ -629,6 +659,68 @@ hide Mom with dissolve
 
 "She cleaned up her face and went straight out the door but then, she turned around just for a second midway and screamed towards her mom:"
 
-h "{size=+10}{b}\"THE FOOD WAS AMAZING MOM, LOVE YOU!\"{/b}{/size}"
+h "\"{size=+10}{b}THE FOOD WAS AMAZING MOM, LOVE YOU!{/b}{/size}\""
+
+"*insert slamming door sound*"
+
+label Waterpark:
+
+"*insert scene transition to the waterpark*"
+
+scene waterpark with dissolve
+
+show Timo happy with dissolve:
+   xalign 0.25
+   yalign 1.0
+
+t "\"There's Hailey!\""
+
+h "\"Hey guys!\""
+
+h "\"Where's Nema?\""
+
+show Amelia tired with dissolve:
+   xalign 0.65
+   yalign 1.0
+
+a "\"She ended up over sleeping and is on the way here right now.\""
+
+h "\"It's funny how the one that asked for a hangout is the one that's late.\""
+
+"Hailey smirks with a slight giggle"
+
+h "\"So what are we going to do now?\""
+
+a "\"We're gonna wait here for Nema to arrive before buying tickets.\""
+
+t "\"So we have to wait for 10 minutes?\""
+
+t "\"That's gonna be pretty boring..\""
+
+h "I mean it's tolerable for me but if it's boring for you then we can play a game to pass the time."
+
+show Nema happy with dissolve(0.3):
+   xalign 0.85
+   yalign 1.0
+
+n "\"What game are you guys gonna play?\""
+
+show Timo Suprised with vpunch
+
+show Amelia Suprised with vpunch
+
+hat "\"{size=+10}{b}AGHH!{/b}{/size}\""
+
+t "\"{b}YOU SCARED THE HELL OUT OF ME!!{/b}\""
+
+show Amelia at center with move
+
+show Timo with move:
+   xalign 0.15
+   yalign 1.0
+
+n "\"Heheh.. sorry about that.\""
+
+
 
 return
