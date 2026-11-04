@@ -23,6 +23,8 @@ define hm = Character("Hailey's Mom")
 define hat = Character("Hailey, Timo and Amelia")
 #define bell = (sound,"audio/bell.mp3")
 
+define fast_dissolve = Dissolve(0.1)
+
 define Teacher  = Character("Teacher")
 
 image Delilah Happy = "Delilah happy1.jpg"
@@ -667,7 +669,7 @@ label Waterpark:
 
 "*insert scene transition to the waterpark*"
 
-scene waterpark with dissolve
+scene waterpark_front with dissolve
 
 show Timo happy with dissolve:
    xalign 0.25
@@ -699,7 +701,7 @@ t "\"That's gonna be pretty boring..\""
 
 h "I mean it's tolerable for me but if it's boring for you then we can play a game to pass the time."
 
-show Nema happy with dissolve(0.3):
+show Nema happy behind Amelia with fast_dissolve:
    xalign 0.85
    yalign 1.0
 
@@ -719,8 +721,22 @@ show Timo with move:
    xalign 0.15
    yalign 1.0
 
+show Nema apolegetic with dissolve
+
 n "\"Heheh.. sorry about that.\""
 
+n "We should buy our tickets now, sorry for being late"
+
+t "\"Let's go!\""
+
+hide 
+"*insert transition  to inside the water park at 11am*"
+
+scene waterpark_inside with dissolve
+
+h "\"{b}WHOOO!{/b}\""
+
+"*insert water splashing sound*"
 
 
 return
